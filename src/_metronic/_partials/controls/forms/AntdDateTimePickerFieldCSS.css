@@ -1,0 +1,7 @@
+.ant-picker-input > input[disabled] {
+    color: #3F4254 !important;
+}
+
+.valid-border-color {
+    border-color: #1BC5BD;
+}

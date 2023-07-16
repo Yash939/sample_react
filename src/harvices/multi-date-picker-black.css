@@ -1,0 +1,80 @@
+:root {
+  --rmdp-primary-black: #000000;
+  --rmdp-secondary-black: #87ad92;
+  --rmdp-shadow-black: #87ad92;
+  --rmdp-today-black: #b3abab;
+  --rmdp-hover-black: #ede8e8;
+  --rmdp-deselect-black: #39795c;
+}
+
+.black .rmdp-wrapper {
+  border: 1px solid var(--rmdp-secondary-black);
+  box-shadow: 0 0 5px var(--rmdp-secondary-black);
+}
+
+.black .rmdp-panel-body li {
+  background-color: var(--rmdp-primary-black);
+  box-shadow: 0 0 2px var(--rmdp-secondary-black);
+}
+
+.black .rmdp-week-day {
+  color: var(--rmdp-primary-black);
+}
+
+.black .rmdp-day.rmdp-deactive {
+  color: var(--rmdp-secondary-black);
+}
+
+.black .rmdp-range {
+  background-color: var(--rmdp-primary-black);
+  box-shadow: 0 0 3px var(--rmdp-shadow-black);
+}
+
+.black .rmdp-arrow {
+  border: solid var(--rmdp-primary-black);
+  border-width: 0 2px 2px 0;
+}
+
+.black .rmdp-arrow-container:hover {
+  background-color: var(--rmdp-primary-black);
+  box-shadow: 0 0 3px var(--rmdp-secondary-black);
+}
+
+.black .rmdp-panel-body::-webkit-scrollbar-thumb {
+  background: var(--rmdp-primary-black);
+}
+
+.black .rmdp-day.rmdp-today span {
+  background-color: var(--rmdp-today-black);
+}
+
+.black .rmdp-rtl .rmdp-panel {
+  border-left: unset;
+  border-right: 1px solid var(--rmdp-secondary-black);
+}
+
+.black .rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: var(--rmdp-primary-black);
+  box-shadow: 0 0 3px var(--rmdp-shadow-black);
+}
+
+.black .rmdp-day:not(.rmdp-day-hidden) span:hover {
+  background-color: var(--rmdp-hover-black) !important;
+}
+
+.black .b-deselect {
+  color: var(--rmdp-deselect-black);
+  background-color: white;
+}
+
+.black .rmdp-action-button {
+  color: var(--rmdp-primary-black);
+}
+
+.black .rmdp-button:not(.rmdp-action-button) {
+  background-color: var(--rmdp-primary-black);
+}
+
+.black .rmdp-button:not(.rmdp-action-button):hover {
+  background-color: var(--rmdp-deselect-black);
+}

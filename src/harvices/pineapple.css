@@ -1,0 +1,108 @@
+.pinaple-yellow{
+    background-image: linear-gradient(to right, #FFBD3A , #FDE17C);
+}
+/* .pinaple-yellow-btn{
+    background-image: linear-gradient(270deg, #FDE17C 0%, #FFBD3A 68%);
+    border-radius: 6px;
+    border-radius: 6px;
+    border-width: 0px !important;
+    transition: .3s linear;
+} */
+.pinaple-yellow-btn{
+  background-image: linear-gradient(270deg, #3699ff 0%, #84bffa 68%);
+  border-radius: 6px;
+  border-radius: 6px;
+  border-width: 0px !important;
+  transition: .3s linear;
+  color: black;
+}
+.pinaple-yellow-btn:hover{
+  box-shadow: 0px 0px 3px #888 inset;
+  background-image: linear-gradient(270deg, #3699ff 0%, #84bffa 68%);
+}
+/* .pinaple-yellow-btn:hover{
+    box-shadow: 0px 0px 3px #888 inset;
+    background-image: linear-gradient(270deg, #FDE17C 0%, #ffbd3adc 68%);
+} */
+.pinaple-black{
+    background-image: linear-gradient(to right, #000 , #222);
+}
+.pinaple-black-btn{
+    background-color: #130c0e !important;
+    border-radius: 6px;
+    border-radius: 6px;
+    border-width: 0px !important;
+    color:#ddd !important;
+    font-weight: 900;
+}
+.pinaple-black-btn:hover{
+    box-shadow: 0px 0px 5px #ddd inset;
+    background-color: #130c0eea !important;
+}
+
+.fieldset {
+    border: 2px groove threedface;
+    border-top: none;
+    padding: 0.5em;
+    margin: 1em 2px;
+  }
+  
+  .fieldset>h1 {
+    font: 1em normal;
+    margin: -1em -0.5em 0;
+  }
+  
+  .fieldset>h1>span {
+    float: left;
+  }
+  
+  .fieldset>h1:before {
+    border-top: 2px groove threedface;
+    content: ' ';
+    float: left;
+    margin: 0.5em 2px 0 -1px;
+    width: 0.75em;
+  }
+  
+  .fieldset>h1:after {
+    border-top: 2px groove threedface;
+    content: ' ';
+    display: block;
+    height: 1.5em;
+    left: 2px;
+    margin: 0 1px 0 0;
+    overflow: hidden;
+    position: relative;
+    top: 0.5em;
+  }
+
+  .fa-trash:hover{
+    color: red;
+  }
+
+  
+         .select-no-arrow { 
+          /* for Firefox */ 
+          -moz-appearance: none; 
+          /* for Safari, Chrome, Opera */ 
+          -webkit-appearance: none;
+          border: 1px solid #eee;
+          text-align: center;
+        } 
+    
+        /* for IE10 */ 
+        .select-no-arrow::-ms-expand { 
+          display: none; 
+        } 
+
+        .smbtn{
+          margin-top: 0px;
+          margin-left: 0.5rem ;
+        }
+    @media (max-width: 320px)
+        {
+         .smbtn{
+           margin-top: 5px;
+           margin-left: 0px ;
+         }
+        }
