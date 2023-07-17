@@ -11,6 +11,7 @@ const cityPage = lazy(() => import("./CityMaster/cityPage"));
 const currencyPage = lazy(() => import("./CurrencyMaster/currencyPage"));
 const taskPriorityPage = lazy(() => import("./TaskPriorityMaster/taskPriorityPage"));
 const taskStatusPage = lazy(() => import("./TaskStatusMaster/taskStatusPage"));
+const termsAndConditionsPage = lazy(() => import("./TermsAndConditionsMaster/termsAndCondtionsPage"));
 
 
 const MastersPage = () => {
@@ -48,6 +49,8 @@ const MastersPage = () => {
             return <ContentRoute path="/settings/masters/ticket-priority" component={taskPriorityPage} />
           } else if(x.path === "/settings/masters/ticket-status") {
             return <ContentRoute path="/settings/masters/ticket-status" component={taskStatusPage} />
+          } else if(x.path === "/settings/masters/terms-and-conditions") {
+            return <ContentRoute path="/settings/masters/terms-and-conditions" component={termsAndConditionsPage} />
           }
         })
       }

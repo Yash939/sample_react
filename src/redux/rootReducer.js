@@ -30,6 +30,7 @@ import { reportsPayInSlice } from "../app/modules/Reports/_redux/PayInReportRedu
 import { projectAttachmentSlice } from "../app/modules/Transaction/ProjectMaster/_redux/ProjectAttachmentRedux";
 import { projectBranchSlice } from "../app/modules/Transaction/ProjectMaster/_redux/ProjectBranchRedux";
 import { taskPendingReasonsMasterSlice } from "../app/modules/Masters/TaskPendingStatusMaster/_redux/TaskPendingStatusMasterRedux";
+import { termsAndConditionsMasterSlice } from "../app/modules/Masters/TermsAndConditionsMaster/_redux/TermsAndConditionsMasterRedux";
 
 export const rootReducer = combineReducers({
   auth: auth.reducer,
@@ -59,7 +60,8 @@ export const rootReducer = combineReducers({
   reportPayIn: reportsPayInSlice.reducer,
   projectAttachment: projectAttachmentSlice.reducer,
   projectBranch: projectBranchSlice.reducer,
-  taskPendingReasonsMaster: taskPendingReasonsMasterSlice.reducer
+  taskPendingReasonsMaster: taskPendingReasonsMasterSlice.reducer,
+  termsAndConditionsMaster: termsAndConditionsMasterSlice.reducer
 });
 
 export function* rootSaga() {
